@@ -1,6 +1,6 @@
 /*************
- Ûà±¾ÖÆ×÷
-mainËùÐè°üº¬µÄËùÓÐÍ·ÎÄ¼þ
+ ï¿½à±¾ï¿½ï¿½ï¿½ï¿½
+mainï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½Ä¼ï¿½
 
  2018.3.17
 **************/
@@ -29,28 +29,28 @@ mainËùÐè°üº¬µÄËùÓÐÍ·ÎÄ¼þ
 #include "driverlib/uart.h"
 #include "grlib/grlib.h"
 
-#include "APIS/delay.h"
-#include "APIS/uartstdio.h"
-#include "APIS/TIMER_Init.h"
-#include "APIS/PWM_Init.h"
-#include "APIS/ADC_Init.h"
-#include "APIS/I2C_Init.h"
-#include "APIS/QEI_Init.h"
-#include "APIS/SPI_Init.h"
-#include "APIS/SPI_drv.h"
+#include "BPS/delay.h"
+#include "BPS/uartstdio.h"
+#include "BPS/TIMER_Init.h"
+#include "BPS/PWM_Init.h"
+#include "BPS/ADC_Init.h"
+#include "BPS/I2C_Init.h"
+#include "BPS/QEI_Init.h"
+#include "BPS/SPI_Init.h"
+#include "BPS/SPI_drv.h"
 
-#include "BSP/OLED/oled.h"
-#include "BSP/OLED/oled_font.h"
-#include "BSP/sensor/tmp75.h"
-#include "BSP/sensor/sonar.h"
-#include "BSP/ADC/ads1118.h"
-#include "BSP/ADC/ads1115.h"
-#include "BSP/DAC/dac5618.h"
-#include "BSP/DAC/dac8571.h"
-#include "BSP/DDS/ADF435X.h"
-#include "BSP/HMI/HMI.h"
-#include "BSP/DDS/ad9959.h"
-#include "BSP/DSP/Win_Fun_Gen.h"
+#include "API/OLED/oled.h"
+#include "API/OLED/oled_font.h"
+#include "API/sensor/tmp75.h"
+#include "API/sensor/sonar.h"
+#include "API/ADC/ads1118.h"
+#include "API/ADC/ads1115.h"
+#include "API/DAC/dac5618.h"
+#include "API/DAC/dac8571.h"
+#include "API/DDS/ADF435X.h"
+#include "API/HMI/HMI.h"
+#include "API/DDS/ad9959.h"
+#include "API/DSP/Win_Fun_Gen.h"
 
 
 #include "USER/Init.h"
